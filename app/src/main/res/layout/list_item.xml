@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <View
+        android:id="@+id/view_important"
+        android:layout_width="15dp"
+        android:layout_height="match_parent"
+        android:minHeight="50dp" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="5dp"
+        android:text="Hello"
+        android:gravity="center_vertical"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
