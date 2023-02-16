@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_activity);
         initialize();
+        String test = "Test thanh cong";
     }
 
     private void initialize() {
